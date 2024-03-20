@@ -1,0 +1,51 @@
+.calendar {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.header button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+}
+
+.day {
+  width: calc(100% / 7);
+  text-align: center;
+  padding: 5px 0;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.date {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.empty {
+  visibility: hidden;
+}
+/* App.css */
+
+/* Apply background color to the entire page */

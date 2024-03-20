@@ -1,0 +1,7 @@
+.percentage-wheel {
+  width: 100px; /* Adjust width and height as needed */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
